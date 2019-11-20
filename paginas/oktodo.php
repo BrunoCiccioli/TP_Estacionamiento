@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ?>
@@ -26,21 +25,51 @@ session_start();
 
     <header>
     <?php
-        include "componentes/menu.php";
+       // include "componentes/menu.php";
     ?>
     </header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
          
-       <h1 class="mt-5">ESTACIONAMIENTO LOW RIDER</h1>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=100 height=100><img src="https://www.logolynx.com/images/logolynx/cc/cc7870cf8dca735bd9872c4845939519.jpeg" width=400 height=300><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=100 height=100>
+        <?php
+        if (isset($_SESSION['nombre']) && isset($_SESSION['contraseña'] ))
+        {
+        ?>
+       <h1>TE REGISTRASTE CON EXITO!!</h1>
+        <img src="https://maestrofinanciero.com/wp-content/uploads/2012/07/exitosos.jpg">
+        <br>
+        
+         
+          <h1>Ahora podes loguearte</h1>
+          <a href="../paginas/login.php"><h2>login</h2></a>
+
+        <?php
+        }
+        ?>
+
+         <?php
+        if (isset($_SESSION['patente']))
+        {
+        ?>
+       <h1>Vehiculo ingresado con exito!!</h1>
+        <img src="https://maestrofinanciero.com/wp-content/uploads/2012/07/exitosos.jpg">
+        <br>
+
+        <h1>volver al inicio</h1>  <a href="../index.php"><h2>inicio</h2></a>
+        <h1>cargar nuevo vehiculo</h1>  <a href="../paginas/cargarvehiculo.php"><h2>cargar</h2></a>
+        
+         
+          
+        <?php
+        }
+        ?>
 
     </main>
       
     <footer class="footer">
     <?php
-        include "componentes/pie.php";
+        //include "componentes/pie.php";
     ?>
     </footer>
 
