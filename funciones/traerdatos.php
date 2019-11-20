@@ -5,7 +5,14 @@ include 'accesoadatos.php';
 			$consulta =$objetoAccesoDato->RetornarConsulta("select *  from usuario");
 			$consulta->execute();			
 			$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
-			var_dump($datos);
-		
+			//var_dump($datos);
+			foreach ($datos as $usuario) 
+			{
+				//var_dump($usuario);
+				echo ($usuario["nombre"]);
+				echo "<br>";
+				echo($usuario["clave"]);
+				echo "<br>";
+			}
 	
 ?>
