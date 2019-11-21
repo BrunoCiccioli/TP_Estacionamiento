@@ -1,7 +1,7 @@
 <?php
 
 include 'accesoadatos.php';
-var_dump("hola"); die();
+//var_dump("hola"); die();
 
 
 $miObjeto = new stdClass();
@@ -18,7 +18,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
 		{
 			if($usuario["nombre"]==$miObjeto->nombre)
 			{
-				header("Location: ../paginas/usuarioyaregistrado.php");
+				//header("Location: ../paginas/usuarioyaregistrado.php");
 		        exit();
 			}
 			
@@ -30,7 +30,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
         $consulta =$objetoAccesoDato->RetornarConsulta($select);
         $consulta->execute();
 
-        header("Location: ../paginas/ok.php");
+        //header("Location: ../paginas/ok.php");
         exit();
         
         
