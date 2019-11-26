@@ -11,7 +11,7 @@ session_start();
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>LOWRIDER</title>
+    <title>ESTACIONAMIENTO CICCIOLI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@ session_start();
     <!-- Begin page content -->
     <main role="main" class="container">
          
-       <h1 class="mt-5">ESTACIONAMIENTO LOW RIDER</h1>
+       <h1 class="mt-5">ESTACIONAMIENTO CICCIOLI</h1>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=100 height=100><img src="https://www.logolynx.com/images/logolynx/cc/cc7870cf8dca735bd9872c4845939519.jpeg" width=400 height=300><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=100 height=100>
 
     </main>
