@@ -5,15 +5,22 @@ include 'accesoadatos.php';
 
 
 $miObjeto = new stdClass();
+//var_dump("hola"); die();
 $miObjeto->nombre = $_GET['nombre'];
+//var_dump("hola"); die();
 $miObjeto->contraseña = $_GET['contraseña'];
+//var_dump("hola"); die();
 
 
     $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
+	//var_dump("hola"); die();
+
 	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
-	$consulta->execute();			
+	//var_dump("hola"); die();
+	$consulta->execute();
+	//var_dump("hola"); die();			
 	$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
-	//var_dump($datos);
+	//var_dump("hola"); die();
 	foreach ($datos as $usuario) 
 		{
 			if($usuario["nombre"]==$miObjeto->nombre)
@@ -26,12 +33,16 @@ $miObjeto->contraseña = $_GET['contraseña'];
 
 
         $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
+        //var_dump("hola"); die();
         $select="INSERT INTO usuario( nombre, clave) VALUES ('$miObjeto->nombre','$miObjeto->contraseña')";
+        //var_dump("hola"); die();
         $consulta =$objetoAccesoDato->RetornarConsulta($select);
+        //var_dump("hola"); die();
         $consulta->execute();
 
         //header("Location: ../paginas/ok.php");
         exit();
+        //var_dump("hola"); die();
         
         
 
