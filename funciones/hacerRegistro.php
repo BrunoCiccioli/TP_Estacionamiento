@@ -9,11 +9,11 @@ $miObjeto = new stdClass();
 $miObjeto->nombre = $_GET['nombre'];
 //var_dump("hola"); die();
 $miObjeto->contraseña = $_GET['contraseña'];
-var_dump("hola"); die();
+//var_dump("hola"); die();
 
 
     $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
-	//var_dump("hola"); die();
+	var_dump("hola"); die();
 
 	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
 	//var_dump("hola"); die();
