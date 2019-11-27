@@ -1,2 +1,0 @@
-{"usuario":"alfredo","password":"1234","perfil":"empleado"}
-{"usuario":"julieta","password":"1234","perfil":"admin"}
