@@ -69,10 +69,10 @@
 
            
             <li class="nav-item">
-              <a class="nav-link" href=" /paginas/historialvehiculos.php">Historial Vehiculos</a>
+              <a class="nav-link" href=" /paginas/historialvehiculos.php">Historial de Vehiculos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=" /paginas/historialusuarios.php">Historial Empleados</a>
+              <a class="nav-link" href=" /paginas/historialusuarios.php">Historial de Empleados</a>
             </li>
 
             <?php 
