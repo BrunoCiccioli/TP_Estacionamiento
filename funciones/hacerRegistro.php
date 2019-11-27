@@ -25,7 +25,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
 		{
 			if($usuario["nombre"]==$miObjeto->nombre)
 			{
-				//header("Location: ../paginas/usuarioyaregistrado.php");
+				header("Location: ../paginas/usuarioyaregistrado.php");
 		        exit();
 			}
 			
@@ -40,9 +40,9 @@ $miObjeto->contraseña = $_GET['contraseña'];
         //var_dump("hola"); die();
         $consulta->execute();
 
-        //header("Location: ../paginas/ok.php");
+        header("Location: ../paginas/ok.php");
         exit();
-        var_dump("hola"); die();
+        //var_dump("hola"); die();
         
         
 
