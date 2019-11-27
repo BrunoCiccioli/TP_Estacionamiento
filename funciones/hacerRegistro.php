@@ -1,11 +1,11 @@
 <?php
 
 include 'accesoadatos.php';
-var_dump("hola"); die();
+//var_dump("hola"); die();
 
 
 $miObjeto = new stdClass();
-//var_dump("hola"); die();
+var_dump("hola"); die();
 $miObjeto->nombre = $_GET['nombre'];
 //var_dump("hola"); die();
 $miObjeto->contraseña = $_GET['contraseña'];
