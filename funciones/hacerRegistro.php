@@ -16,9 +16,9 @@ $miObjeto->contraseña = $_GET['contraseña'];
 	//var_dump("hola"); die();
 
 	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
-	var_dump("hola"); die();
+	//var_dump("hola"); die();
 	$consulta->execute();
-	//var_dump("hola"); die();			
+	var_dump("hola"); die();			
 	$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
 	//var_dump("hola"); die();
 	foreach ($datos as $usuario) 
