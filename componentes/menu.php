@@ -42,7 +42,7 @@
               <a class="nav-link" href=" /paginas/cargarvehiculo.php">Ingresar Auto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=" /paginas/vehiculosenestacionamiento.php">Vehiculos estacionados</a>
+              <a class="nav-link" href=" /paginas/vehiculosenestacionamiento.php">Autos Estacionados</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href=" /paginas/facturar.php">Retirar Vehiculo</a>
@@ -50,7 +50,7 @@
             <li class="nav-item">
               <a class="nav-link" href=" /paginas/listausuarios.php">Lista Usuario</a>
             <li class="nav-item">
-              <a class="nav-link" href=" /paginas/facturados.php">Vehiculos Retirados</a>
+              <a class="nav-link" href=" /paginas/facturados.php">Autos Retirados</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href=" /funciones/hacerLogout.php">Cerrar Sesion</a>
