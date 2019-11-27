@@ -7,7 +7,7 @@
                                             else
                                             {
                                              ?>
-                                             Alumno
+                                             Estacionamiento
                                             <?php
                                             }
                                             ?></a>
@@ -24,7 +24,7 @@
               //solo muestra estos item , si el usuario no esta logeado
             ?>
             <li class="nav-item">
-              <a class="nav-link" href=" /paginas/registro.php">Registrate</a>
+              <a class="nav-link" href=" /paginas/registro.php">Registrarse</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href=" /paginas/login.php">Login</a>
