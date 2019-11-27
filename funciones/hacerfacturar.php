@@ -32,7 +32,7 @@ $bandera=0;
 
         $tiempo = $horaSalida - $registrovehiculo['horaingreso'];
 
-        $cobrar = ($tiempo /60/60/60) * $precio;
+        $cobrar = ($tiempo /60/60) * $precio;
     
 
         $objetoFacturado = new stdClass();
