@@ -52,7 +52,7 @@ session_start();
 
      <div class="col-sm-4">
         
-     <div align="center"><img src="https://us.cdn.eltribuno.com/072016/1487243186771.jpg" width=100 height=100></div><br>
+     <div align="center"><img src="https://www.fabio.com.ar/images/reviews25/patente00.jpg" width=100 height=100></div><br>
 
      <form class="form-signin" action="../funciones/hacerfacturar.php">
                               
