@@ -1,7 +1,7 @@
 <?php
 
 include 'accesoadatos.php';
-//var_dump("hola"); die();
+var_dump("hola"); die();
 
 
 $miObjeto = new stdClass();
