@@ -39,7 +39,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
 	$consulta->execute();
 	//var_dump("hola"); die();
 
-header("Location: ../paginas/ok.php");
+header("Location: /paginas/ok.php");
 	
         
         
