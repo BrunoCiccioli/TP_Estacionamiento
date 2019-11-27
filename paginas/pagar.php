@@ -34,7 +34,7 @@ session_start();
          
       <form action="hacerfacturar.php"> 
 
-      <h1>Cobrar</h1>
+      <h1>Facturacion</h1>
 
       <?php
 
@@ -48,7 +48,7 @@ session_start();
           echo "Vehiculo: ".$patente."<br>";
           echo "Hora de ingreso: ".$ingreso."<br>";
           echo "Hora de salida: ".$salida."<br>";
-          echo "Cobrar: $".$cobrar."<br>";
+          echo "Tiene que abonar: $".$cobrar."<br>";
         
 
           ?>

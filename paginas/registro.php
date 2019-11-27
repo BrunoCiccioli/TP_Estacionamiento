@@ -32,7 +32,7 @@ session_start();
     <!-- Begin page content -->
     <main role="main" class="container">
 
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=50 height=50><img src="https://www.logolynx.com/images/logolynx/cc/cc7870cf8dca735bd9872c4845939519.jpeg" width=200 height=150><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mexico_road_sign_estacionamiento.svg/1024px-Mexico_road_sign_estacionamiento.svg.png" width=50 height=50>
+    <img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=250 height=250><img src="https://www.mibelgrano.com.ar/wp-content/uploads/2019/03/Estacionamiento.jpg" width=250 height=250><img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=250 height=250>
 
       <form action="../funciones/hacerRegistro.php" class="form-signin">
       <div class="text-center mb-4">
