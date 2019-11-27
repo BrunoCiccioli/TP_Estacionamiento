@@ -18,7 +18,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
 	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
 	//var_dump("hola"); die();
 	$consulta->execute();
-	var_dump("hola"); die();			
+	//var_dump("hola"); die();			
 	$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
 	//var_dump("hola"); die();
 	foreach ($datos as $usuario) 
@@ -42,7 +42,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
 
         //header("Location: ../paginas/ok.php");
         exit();
-        //var_dump("hola"); die();
+        var_dump("hola"); die();
         
         
 
