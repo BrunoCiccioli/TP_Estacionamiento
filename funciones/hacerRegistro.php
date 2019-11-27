@@ -13,10 +13,10 @@ $miObjeto->contraseña = $_GET['contraseña'];
 
 
     $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
-	var_dump("hola"); die();
+	//var_dump("hola"); die();
 
 	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
-	//var_dump("hola"); die();
+	var_dump("hola"); die();
 	$consulta->execute();
 	//var_dump("hola"); die();			
 	$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
