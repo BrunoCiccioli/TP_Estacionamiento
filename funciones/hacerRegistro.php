@@ -14,7 +14,7 @@ $miObjeto->contraseña = $_GET['contraseña'];
     $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
 	//var_dump("hola"); die();
 
-	$consulta =$objetoAccesoDato->RetornarConsulta("select nombre from usuario");
+	$consulta =$objetoAccesoDato->RetornarConsulta("SELECT nombre from usuario");
 	//var_dump("hola"); die();
 	$consulta->execute();
 	//var_dump("hola"); die();			
