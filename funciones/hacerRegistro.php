@@ -32,10 +32,14 @@ $miObjeto->contraseña = $_GET['contraseña'];
 
 if(isset($datos[0]['nombre']))
 	{
-	$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
+	$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso();
+	//var_dump("hola"); die();
 	$select="INSERT INTO usuario( nombre, clave) VALUES ('$miObjeto->nombre','$miObjeto->contraseña')";
+	//var_dump("hola"); die();
 	$consulta =$objetoAccesoDato->RetornarConsulta($select);
+	//var_dump("hola"); die();
 	$consulta->execute();
+	//var_dump("hola"); die();
 }
 header("Location: ../paginas/ok.php");
 	
