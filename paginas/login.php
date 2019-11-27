@@ -34,7 +34,7 @@ session_start();
     <main role="main" class="container">
          
       <h2 class="mt-5">ESTACIONAMIENTO CICCIOLI</h2>
-      <img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=100 height=100><img src="https://www.mibelgrano.com.ar/wp-content/uploads/2019/03/Estacionamiento.jpg" width=400 height=300><img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=100 height=100>
+      <img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=100 height=100><img src="https://www.mibelgrano.com.ar/wp-content/uploads/2019/03/Estacionamiento.jpg" width=200 height=100><img src="https://www.tiempodesanjuan.com/u/fotografias/fotosnoticias/2019/11/19/580356.jpg" width=100 height=100>
 
 
 
