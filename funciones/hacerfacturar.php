@@ -2,7 +2,7 @@
 
 include 'accesoadatos.php';
 
-$precio=1000;
+$precio=0.01;
 $patente2 = $_GET['patente'];
 $bandera=0;
 
